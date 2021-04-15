@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rebus.LegacyExtensions", "Rebus.LegacyExtensions\Rebus.LegacyExtensions.csproj", "{A7FF2216-0F12-4AFE-9F0B-2CFC22E61527}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebus.LegacySample", "Rebus.LegacySample\Rebus.LegacySample.csproj", "{5213621F-D1D1-48CA-835A-7DDDF2A3377E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebus.Sample.Contracts", "Rebus.Sample.Contracts\Rebus.Sample.Contracts.csproj", "{1BA2A1F5-633B-42AF-9B24-2C5D61F7EBE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rebus.LegacySample.Contracts", "Rebus.LegacySample.Contracts\Rebus.LegacySample.Contracts.csproj", "{726AF1ED-5E3C-4D58-8274-84601916B247}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rebus.ClientSample", "Rebus.ClientSample\Rebus.ClientSample.csproj", "{2CFF3F4B-7313-4DDA-8955-F3B0009ED0B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rebus.ServerSample", "Rebus.ServerSample\Rebus.ServerSample.csproj", "{7D07FFB1-5A6F-4922-B819-73D2224C99E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A7FF2216-0F12-4AFE-9F0B-2CFC22E61527}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7FF2216-0F12-4AFE-9F0B-2CFC22E61527}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7FF2216-0F12-4AFE-9F0B-2CFC22E61527}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7FF2216-0F12-4AFE-9F0B-2CFC22E61527}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5213621F-D1D1-48CA-835A-7DDDF2A3377E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5213621F-D1D1-48CA-835A-7DDDF2A3377E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5213621F-D1D1-48CA-835A-7DDDF2A3377E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5213621F-D1D1-48CA-835A-7DDDF2A3377E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA2A1F5-633B-42AF-9B24-2C5D61F7EBE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA2A1F5-633B-42AF-9B24-2C5D61F7EBE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA2A1F5-633B-42AF-9B24-2C5D61F7EBE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA2A1F5-633B-42AF-9B24-2C5D61F7EBE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{726AF1ED-5E3C-4D58-8274-84601916B247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{726AF1ED-5E3C-4D58-8274-84601916B247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{726AF1ED-5E3C-4D58-8274-84601916B247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{726AF1ED-5E3C-4D58-8274-84601916B247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CFF3F4B-7313-4DDA-8955-F3B0009ED0B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CFF3F4B-7313-4DDA-8955-F3B0009ED0B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CFF3F4B-7313-4DDA-8955-F3B0009ED0B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CFF3F4B-7313-4DDA-8955-F3B0009ED0B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D07FFB1-5A6F-4922-B819-73D2224C99E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D07FFB1-5A6F-4922-B819-73D2224C99E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D07FFB1-5A6F-4922-B819-73D2224C99E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D07FFB1-5A6F-4922-B819-73D2224C99E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {914BD67F-DC49-46BF-B229-5DDF1FCF6D41}
+	EndGlobalSection
+EndGlobal

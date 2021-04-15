@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HermaFx.Foundation" Version="1.3.301" />
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.30" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
+    <PackageReference Include="Rebus" Version="6.5.5" />
+    <PackageReference Include="Rebus.Async" Version="7.2.0" />
+    <PackageReference Include="Rebus.RabbitMq" Version="7.3.0" />
+    <PackageReference Include="Rebus.ServiceProvider" Version="6.3.1" />
+    <PackageReference Include="Rebus.XmlConfig" Version="4.0.0" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Rebus.LegacyExtensions\Rebus.LegacyExtensions.csproj" />
+    <ProjectReference Include="..\Rebus.LegacySample.Contracts\Rebus.LegacySample.Contracts.csproj" />
+    <ProjectReference Include="..\Rebus.Sample.Contracts\Rebus.Sample.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Rebex.Mail">
+      <HintPath>..\Libs\Rebex.Mail.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

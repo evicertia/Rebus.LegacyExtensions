@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Company>Evidencias Certificadas S.L.</Company>
+    <Authors>Evicertia</Authors>
+    <Copyright>Copyright © evicertia 2021</Copyright>
+    <AssemblyVersion>0.0.0.0</AssemblyVersion>
+    <FileVersion>0.0.0.0</FileVersion>
+    <Description>Makes Rebus 0.84+ versions compatible with Oldest versions.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="Rebus" Version="6.5.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="LegacyCompatibility\" />
+  </ItemGroup>
+
+</Project>
